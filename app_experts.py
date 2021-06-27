@@ -63,7 +63,7 @@ experts = [
 experts_option = st.multiselect(
     "Select at least two experts:",
     experts,
-    default=["skyline", "randomCutForest"],
+    default=["skyline", "numenta"],
 )
 share_option = st.selectbox("Select share type:", ["Fixed", "Variable"])
 alpha_option = st.slider(
